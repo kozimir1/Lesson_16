@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">Я хедер
+		</header>
+		<main class="main">
+			<div class="appointment">
+				<div class="appointment__title">Make an appointment</div>
+				<form action="#" class="appointment__form">
+					<div class="appointment__items">
+						<div class="appointment__item">
+							<input class="appointment__input" type="text" placeholder="Name" name="udsername" required
+								autocomplete="off">
+						</div>
+						<div class="appointment__item">
+							<input class="appointment__input" type="email" placeholder="Email" name="Email" autocomplete="off">
+						</div>
+						<div class="appointment__item">
+							<input class="appointment__input" type="tel" placeholder="Phone Number" name="userphone" required
+								autocomplete="off">
+						</div>
+						<div class="appointment__item">
+							<select class="appointment__select" name="select" id="select">
+								<option value="1">Select Service</option>
+								<option value="2">Service 2</option>
+								<option value="3">Service 3</option>
+								<option value="4">Service 4</option>
+							</select>
+						</div>
+						<div class="appointment__item appointment__item_widtn-100">
+							<textarea class="appointment__textarea" name="text"
+								placeholder="Tell us about your puppers include his/her name"></textarea>
+						</div>
+						<div class="appointment__item item-appointment">
+							<button class="item-appointment__button" type="submit">Make an Appointment</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="login">
+				<div class="login__container">
+					<div class="login__body">
+						<div class="login__title">Registered Customers</div>
+						<div class="login__text">If you have an account, sign in with your email address.</div>
+					</div>
+					<form class="login__form form-login">
+						<div class="form-login__items">
+							<div class="form-login__item">
+								<label class="form-login__label" for="useremail">Email <span>*</span></label>
+								<input class="form-login__input" type="email" name="useremail" placeholder="Your Email"
+									id="useremail" required>
+							</div>
+							<div class="form-login__item">
+								<label class="form-login__label" for="userpass">Password <span>*</span></label>
+								<input class="form-login__input" type="Password" name="userpass" placeholder="Your Password"
+									id="userpass" required>
+							</div>
+						</div>
+						<div class="form-login__footer">
+							<button class="form-login__button" type="submit">Sign In</button>
+							<a href="#" class="form-login__link">Forgot Your Password?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="summary">
+				<div class="summary__container">
+					<form action="#" class="summary__form form-summary">
+						<div class="form-summary__header header-form-summary">
+							<div class="header-form-summary__title">Summary</div>
+							<div class="header-form-summary__subtitle subtitle-text">Estimate Shipping and Tax</div>
+							<div class="header-form-summary__text">Enter your destination to get a shipping estimate.</div>
+						</div>
+						<div class="form-summary__top top-form-summary">
+							<div class="top-form-summary__item item-form-summary__input_select">
+								<div class="top-form-summary__title input-title">Country</div>
+								<select name="selectcountry" class="top-form-summary__select input-form">
+									<option value="1">Australia</option>
+									<option value="1">new Zealand</option>
+									<option value="1">Malaysia</option>
+								</select>
+							</div>
+							<div class="top-form-summary__item">
+								<div class="top-form-summary__title input-title">State/Province</div>
+								<input class="top-form-summary__input input-form" type="text" name="StateProvince" required
+									autocomplete="off">
+							</div>
+							<div class="top-form-summary__item">
+								<div class="top-form-summary__title input-title">Zip/Postal Code</div>
+								<input class="top-form-summary__input input-form" type="text" name="zipcode" required
+									autocomplete="off">
+							</div>
+
+						</div>
+						<div class="form-summary__midlle midlle-form-summary">
+							<div class="midlle-form-summary__radio radio">
+								<div class="radio__item">
+									<div class="radio__title input-title">Standard Rate</div>
+									<input type="radio" id="money" class="radio__input" name="rate" value="money" checked>
+									<label for="money" class="radio__label">Price may vary depending on the item/destination.
+										Shop
+										Staff will contact you. $21.00</label>
+								</div>
+								<div class="radio__item">
+									<div class="radio__title input-title">Pickup from store</div>
+									<input type="radio" id="free" class="radio__input" name="rate" value="free">
+									<label for="free" class="radio__label">1234 Street Adress City Address, 1234 $0.00</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-summary-bottom">
+							<div class="form-summary-bottom__subtitle subtitle-text">
+								Apply Discount Code
+							</div>
+							<div class="form-summary-bottom__item">
+								<div class="form-summary-bottom__title input-title">Enter discount code</div>
+								<input class="form-summary-bottom__input input-form" type="text" name="StateProvince" required
+									autocomplete="off" placeholder="Enter Discount code">
+							</div>
+							<button title="submit" class="form-summary-bottom__buttom">Apply Discount</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">я футер
+		</footer>
+	</div>
+</body>
+
+</html>
